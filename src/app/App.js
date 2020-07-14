@@ -119,7 +119,7 @@ class App extends Component {
           <li><a href="#!"></a></li>
         </ul>
         <nav style={{margin:'0px 0px 2rem 0px'}}>
-          <div className="nav-wrapper">
+          <div className="nav-wrapper teal lighten-1">
             <div className='container'>
             <a href="#!" className="brand-logo">Rudok Task</a>
 
@@ -154,7 +154,7 @@ class App extends Component {
                 this.state.tasks.map(task => {
                   return(
                     <div className='col s4' key={task._id}>
-                      <div className='card'>
+                      <div className='card card-2'>
                         <div className='card-content'>
                           <p className='blue-text'><b>{task.title}</b></p>
                           <p>{task.description}</p>
