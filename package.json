@@ -1,0 +1,28 @@
+{
+  "name": "task-list-mern",
+  "version": "1.0.0",
+  "description": "Task List App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicolPA/task-list-mern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicolPA/task-list-mern/issues"
+  },
+  "homepage": "https://github.com/MicolPA/task-list-mern#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
